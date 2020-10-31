@@ -28,3 +28,15 @@ https://api.unsplash.com/photos/PHOTO_ID/?client_id=YOUR_ACCESS_KEY
 
 So, the file name is something along the lines of ‘markus-spiske-bhaXeiBGWw4.jpg’, where
 ‘bhaXeiBGWw4’ is the photo ID.
+
+## Using the script
+1. Update the access_key in config.py
+2. Install dependencies
+```
+  pip install -r requirements.txt
+```
+
+2. Run the script
+  ```python
+    python3 get-photo-location.py
+  ```
